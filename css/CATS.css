@@ -1,0 +1,16 @@
+.header{
+    height: 75px;
+    width: fit-content;
+    background-color: blueviolet;
+}
+.arts{
+    width: 300px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blue;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+}

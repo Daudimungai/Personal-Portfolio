@@ -1,0 +1,39 @@
+.header{
+    height: 75px;
+    width: fit-content;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    font-style: bold;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 0.7 black;
+
+}
+.arts{
+    width: 350px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blue;
+    border-radius: 100px;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+.Genius{
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 200px;
+}
+.Doctor{
+    height: 100px;
+    width: 350px;
+    background-color: aqua;
+    border-radius: 200px;
+    margin-top: 30px;
+}
