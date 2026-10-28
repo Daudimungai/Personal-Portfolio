@@ -8,134 +8,126 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. DATA REPOSITORY: PROJECT STORIES & KNOWLEDGE BASE
   // =========================================================================
   const projectStories = {
-    'bwip-studio': {
-      title: 'BWIP Barcode Studio — Professional Symbology & Verification Suite',
-      subtitle: 'From Industrial Utility to First Proven Commercial Revenue',
-      badge: 'Commercial Milestone • 10 Codes Sold (KSh 1,500)',
-      badgeClass: 'badge-live',
-      spark: `Businesses, retail shops, and inventory managers frequently battle rigid, overpriced desktop software or sketchy ad-ridden generators that only support a couple basic formats. David saw an urgent commercial need: a studio-grade, responsive barcode and QR workstation supporting 100+ industrial symbologies, paired with real-time camera decoding, drag-and-drop QR editing, and specialized compliance formats like AAMVA PDF417 for driver licenses.`,
-      vibeCoding: `Harnessing the power of bwip-js and jsQR, David directed modern AI-assisted engineering sprints to build an all-in-one studio: instant canvas rendering, precise millimetric dimension scaling, color/transparency controls, batch generation, and print-sheet templating. He integrated an activation code licensing mechanism with automated M-Pesa verification workflows.`,
-      architecture: `Vanilla JavaScript | bwip-js 100+ Symbologies Engine | jsQR Live Camera Scanning | HTML5 Canvas API | CSS3 Custom Properties (Dark/Light) | GitHub Pages CI/CD | Node.js & M-Pesa Daraja Integration.`,
-      commercialScale: `Crucially, this is David's first demonstrated commercial software sales milestone: selling 10 activation codes directly to users at KSh 150 each, generating KSh 1,500 in sales before expenses. It proves his ability to package, deploy, market, and monetize a standalone digital utility.`
+    'kalro-biosuite': {
+      title: 'KALRO Bio-Suite — Integrated Organizational Management System',
+      subtitle: 'Unifying Research Operations & Workflow Coordination into a Digital Environment',
+      badge: 'Organizational Suite Concept • KALRO Kenya',
+      badgeClass: 'badge-commercial',
+      spark: `In complex agricultural and livestock research organizations like KALRO, multidisciplinary teams face challenges coordinating diverse departmental activities, field trials, livestock records, and research documentation across distributed stations. David contributed to the vision of KALRO Bio-Suite: an integrated software concept designed to bring organizational activities into a single coordinated digital workspace.`,
+      vibeCoding: `Applying technical problem-solving and software development knowledge to organizational needs, David worked on system architecture blueprints, relational database schema models, and data workflows. The platform concept focuses on real-time trial telemetry, asset tracking, livestock and crop analytics, and structured information retrieval to minimize reporting bottlenecks.`,
+      architecture: `Software Development | Systems Integration | Relational Database Management (MySQL) | Workflow Telemetry | Information Architecture | Enterprise Research Operations.`,
+      commercialScale: `Large-scale research institutes and agricultural organizations require unified digital environments to replace fragmented spreadsheets. The KALRO Bio-Suite concept demonstrates David's capability to understand institutional needs and contribute to high-impact organizational software solutions.`
     },
     'marketmed-ai': {
-      title: 'MarketMed AI — AI Video & Image Generation for Business Marketing',
-      subtitle: 'Your Brand\'s AI-Powered Creative Studio for Ads, Promotions & Campaigns',
-      badge: 'SaaS Platform • Enterprise & Institutional Focus',
-      badgeClass: 'badge-commercial',
-      spark: `Every business, institution, and organization needs marketing content — but producing professional promotional videos and images is expensive, slow, and requires specialized creative agencies. David saw the gap: What if any business, from a Nairobi SME to a multinational corporation, could generate broadcast-quality marketing videos and promotional images in minutes, not weeks? MarketMed AI was born to answer that question.`,
-      vibeCoding: `David architected MarketMed AI as a purpose-built creative SaaS for the enterprise marketing world. Using Vibe Coding workflows — directing AI tools with precision across product design, API integration planning, and UX flows — he designed the full product: an AI image and video generation engine with a business-first interface. The platform enables marketing managers, digital agencies, and institutions to produce ad creatives, product promos, and brand campaigns without hiring a production team. Critically, David designed a built-in student referral ecosystem: students earn 10% of every first subscription they refer — turning the platform into an income opportunity for young Kenyans while growing the product virally.`,
-      architecture: `AI Image Generation Engine | AI Video Generation & Storyboarding | Campaign Asset Library | Multi-Format Export (Instagram Reels, YouTube, LinkedIn, TikTok) | Brand Hub (Logos, Fonts, Voice) | Student Referral & Commission Engine | Subscription & Billing System.`,
-      commercialScale: `The global AI marketing content market is projected to surpass $100 billion by 2030. MarketMed AI targets the massive underserved segment of African and emerging-market businesses that cannot afford traditional creative agencies. The referral program creates a viral, student-powered distribution network — combining SaaS recurring revenue with community-driven growth. This is not just a tool — it is a marketing infrastructure play.`
+      title: 'MarketMed AI — AI-Powered Marketing Platform',
+      subtitle: 'Intelligent Digital Tools & AI-Assisted Workflows for Business Growth',
+      badge: 'AI & Digital Solutions Platform',
+      badgeClass: 'badge-moonshot',
+      spark: `Modern businesses, institutions, and marketing teams face rising demands for continuous digital content, visual campaigns, and data-informed promotions, yet traditional agency workflows are slow and prohibitively expensive. David conceptualized MarketMed AI to explore how artificial intelligence can empower business processes and streamline marketing activities through smart digital tools.`,
+      vibeCoding: `David designed MarketMed AI utilizing AI-assisted development workflows in Cursor and VS Code. He engineered the platform architecture around automated campaign asset planning, content generation pipelines, and multi-channel asset distribution, reflecting his passion for applying artificial intelligence to real-world business processes and digital marketing.`,
+      architecture: `AI-Assisted Workflows | Node.js & Express.js | Digital Marketing Automation | Asset Generation Engine | Multi-Platform Digital Delivery | Content Workflow Coordination.`,
+      commercialScale: `AI-driven marketing platforms represent one of the fastest-growing sectors in the global digital economy. MarketMed AI showcases David's forward-looking initiative to build tools that lower operational costs and democratize digital marketing capabilities for businesses.`
     },
     'vibestream': {
-      title: 'VibeStream — High-Performance Media & Streaming Architecture',
-      subtitle: 'The Quest for Frictionless, High-Scale Audio Streaming',
-      badge: 'Billion-Dollar Potential Media Platform',
+      title: 'VibeStream — Music Streaming Web Application',
+      subtitle: 'Frictionless Music Search, Audio Streaming & Media Downloads',
+      badge: 'Web Application • Media Streaming',
       badgeClass: 'badge-moonshot',
-      spark: `The music streaming industry is dominated by walled gardens with heavy apps, invasive data tracking, and severe latency in emerging markets. David asked: What if you could build a lightning-fast, zero-friction web audio engine that seamlessly indexes media, transcodes on-the-fly, and synchronizes playback across any device without bloated app installs?`,
-      vibeCoding: `Leveraging modern "Vibe Coding" workflows in Cursor, Windsurf, and Gemini, David accelerated backend pipeline development by 5x. Instead of getting bogged down in boilerplate, he directed AI agents to scaffold a dual-tier architecture: a snappy Node.js/Express API with SQLite caching paired with an asynchronous Python FastAPI microservice utilizing FFmpeg and yt-dlp for media processing and real-time WebSocket state distribution.`,
-      architecture: `Node.js & Express.js Core | Vanilla JS Single Page App | SQLite Caching | Python FastAPI Media Microservice | WebSocket Real-Time Synchronization | FFmpeg & yt-dlp Audio Pipelines | iTunes & YouTube Search APIs.`,
-      commercialScale: `Global audio streaming is a $40B+ market. As mobile bandwidth continues to surge in Africa, Southeast Asia, and Latin America, low-overhead, decentralized media streaming engines represent immense consumer and enterprise value — from ad-supported consumer streaming to white-labeled audio delivery for regional creators.`
+      spark: `Media streaming users in developing markets frequently experience bandwidth throttling, heavy app payloads, and intrusive interfaces. David asked: What if you could build a snappy, responsive web application that enables fast music search, smooth audio streaming, and seamless media downloads directly in the browser without bloat?`,
+      vibeCoding: `Using modern JavaScript, Node.js, Express.js, and SQLite, David built an agile media web app. He implemented low-latency audio indexing, real-time player state controls, efficient local caching, and media download pipelines, optimizing delivery for both desktop and mobile web experiences.`,
+      architecture: `JavaScript (ES6+) | Node.js & Express.js Backend | SQLite Caching | Audio Processing Services | Real-Time Player Telemetry | Responsive Web UI.`,
+      commercialScale: `Digital audio and media consumption continues to surge across East Africa and emerging markets. Lightweight web-based streaming platforms offer low barrier-to-entry distribution for creators, educational content, and digital audio platforms.`
     },
-    'ai-trading': {
-      title: 'AI Trading Analyzer — Algorithmic Vision for Financial Markets',
-      subtitle: 'Multi-Timeframe Visual Intelligence for Retail Traders',
-      badge: 'Fintech SaaS Moonshot',
-      badgeClass: 'badge-moonshot',
-      spark: `Over 80% of retail forex and equity traders lose capital due to cognitive bias and timeframe conflict — for example, buying a 15-minute bullish breakout right into a Daily major resistance level. David recognized that human traders process charts visually, but fail under emotional stress. He conceived an AI vision analyzer where a trader simply uploads a chart screenshot, and the engine evaluates indicator confluence, candle structures, and multi-timeframe risk in seconds.`,
-      vibeCoding: `David utilized rapid AI prototyping to design the analytical prompt pipelines, multi-factor scoring algorithms, and a sleek dark-mode trading cockpit. He used Gemini and AI-assisted workflows to model technical indicator edge-cases (RSI divergences, Bollinger squeezes, moving average crossovers) and synthesize them into straightforward, probabilistic scenarios (Buy / Sell / Wait) with strict risk-reward guidance.`,
-      architecture: `Multi-Timeframe Vision Ingestion | Confluence Weighting Engine | Dynamic Risk/Reward Calculator | Technical Indicator Evaluation | Modern Interactive Dashboard.`,
-      commercialScale: `Retail trading software and algorithmic signals represent an enormous global market. A streamlined subscription SaaS helping millions of independent traders eliminate emotional errors has massive recurring revenue and acquisition potential.`
-    },
-    'smartphone-store': {
-      title: 'Global Smartphone E-Commerce & Dual-Gateway Platform',
-      subtitle: 'Premium Consumer Tech Retail with Frictionless Regional Checkout',
-      badge: 'High-Scale Commercial Retail',
+    'zenith-management': {
+      title: 'Zenith Management System — Client Software Project',
+      subtitle: 'Streamlining Business Management Processes & Operational Integrity',
+      badge: 'Client Management System • Kenya',
       badgeClass: 'badge-commercial',
-      spark: `High-end electronics shoppers expect the minimalist luxury of Apple or Samsung flagship stores, but e-commerce in emerging markets frequently fails at the checkout stage due to rigid international card forms that ignore local payment realities. David set out to build an aspirational, world-class storefront featuring Apple, Samsung, and Xiaomi flagships that unifies international credit cards with Africa's dominant mobile money standard: M-Pesa STK Push.`,
-      vibeCoding: `Using rapid component prototyping, David crafted a high-converting, distraction-free buying experience. He architected dynamic multi-currency display (USD and KES), modular device specification comparators, and designed clean integration flows for PayPal and the Safaricom Daraja M-Pesa STK Push API.`,
-      architecture: `Responsive Catalog Architecture | Dual Payment Pipeline Concept (M-Pesa Daraja STK Push + International PayPal/Cards) | Multi-Currency Engine | High-Fidelity Tech Retail UI.`,
-      commercialScale: `Consumer electronics is Kenya and East Africa's fastest-growing retail sector. A trustworthy, premium digital channel capable of automated instant mobile payments unlocks massive high-ticket inventory turnover.`
+      spark: `Individual commercial clients frequently struggle with disjointed operational processes, insecure staff access, and disorganized record keeping. For Zenith Management System, David was tasked with providing technical development support to translate practical business requirements into a dependable, secure software solution.`,
+      vibeCoding: `David led requirements analysis, architectural modeling, and endpoint validation. Built with Node.js and Express with MySQL/SQLite database persistence, he implemented role-based permissions, secure administrative access, and verified system reliability through comprehensive testing and documentation.`,
+      architecture: `Node.js & Express.js Core | Role-Based Access Control | MySQL & SQLite Storage | API Verification & Testing | Requirements Documentation | Business Logic Layer.`,
+      commercialScale: `Custom business management systems empower SMEs to safeguard operational data, coordinate staff activities, and automate routine administrative workflows without costly recurring enterprise licenses.`
     },
-    'afya-bora': {
-      title: 'Afya Bora Pharmacy Management System',
-      subtitle: 'Solving Real-World Healthcare Bottlenecks with Computerized Records',
-      badge: 'Production Deployed System',
+    'aaban-hospital': {
+      title: 'Aaban Hospital Management System',
+      subtitle: 'Healthcare Management Software Supporting Clinical Operations',
+      badge: 'Healthcare Management Project • Live Netlify Demo',
       badgeClass: 'badge-live',
-      spark: `In community pharmacies, manual paper ledgers lead to disastrous outcomes: expired medications sitting on shelves, unaccounted cash sales, stockouts of critical drugs, and patients waiting in long queues. David built Afya Bora as a practical, reliable business solution to digitize and automate daily pharmacy operations.`,
-      vibeCoding: `Focusing on robust relational database design and intuitive user workflows, David developed a full-featured management portal. He tackled database normalization in MySQL, built modular PHP backend endpoints, and ensured rapid search indexing so that pharmacy attendants can look up medicine dosages, stock levels, and generate sales receipts in seconds.`,
+      spark: `Healthcare clinics and community hospitals struggle with manual paper records, leading to medication stockouts, unnoticed batch expiries, lost sales receipts, and delayed patient care. David developed this healthcare management project to digitize hospital workflows and optimize information organization.`,
+      vibeCoding: `Focusing on database normalization in MySQL and practical user flows, David built intuitive modules for patient records, pharmaceutical stock tracking with automated expiry alerts, sales receipt generation, and daily financial ledgers using PHP, JavaScript, and HTML5/CSS3.`,
       architecture: `PHP & MySQL Backend | Vanilla JavaScript Logic | HTML5 & CSS3 Responsive UI | Automated Stock Ledger & Receipt Generation | Live Netlify Deployment.`,
-      commercialScale: `Community healthcare businesses require affordable, dependable operational software without monthly cloud lock-in. Afya Bora demonstrates David's ability to take a messy business problem and turn it into working, tested software.`
+      commercialScale: `Reliable healthcare management systems provide essential infrastructure for clinics, chemists, and community health centers, proving David's ability to turn high-stakes domain requirements into working software.`
     },
-    'zenith-sync': {
-      title: 'Zenith Sync — Secure Concurrency Event Engine',
-      subtitle: 'Scalable Attendee Registration & Access Management',
-      badge: 'Backend Architecture & Security',
+    'real-estate-systems': {
+      title: 'Real Estate Management Systems',
+      subtitle: 'Property Business Processes & Information Organization',
+      badge: 'Property Platform Project • Kenya',
       badgeClass: 'badge-commercial',
-      spark: `Modern events suffer from chaotic ticket registration surges, token spoofing, and disjointed attendee coordination. Zenith Sync was designed to provide a hardened, authenticated event orchestration backend capable of handling concurrent participant check-ins and session workflows.`,
-      vibeCoding: `David focused on backend security and API resilience. He implemented JWT (JSON Web Token) authentication, environment-segregated configuration, and established strict route guards in Node.js/Express, validating every single endpoint through automated Postman testing collections.`,
-      architecture: `Node.js & Express REST API | JWT Stateless Authentication | Role-Based Access Control | Postman Automated Test Suites | Clean Environment Configurations.`,
-      commercialScale: `Secure ticketing, conference pass verification, and access credentials form the backbone of the global corporate events and seminar industry.`
+      spark: `Property managers and landlords face recurring headaches managing unit vacancies, scattered tenant lease agreements, overdue rent follow-ups, and maintenance contractor requests. David worked on software projects designed to support property-related business processes and improve information organization.`,
+      vibeCoding: `David translated property management requirements into a structured database architecture. He developed relational schemas for units, tenants, leases, and payments, enabling automated occupancy tracking, rental payment telemetry, and maintenance issue logging.`,
+      architecture: `Relational Database Schemas (MySQL) | Systems Development | Requirements Gathering | Lease Lifecycle Management | Client Communication & Support.`,
+      commercialScale: `Real estate and property management is one of East Africa's most active economic sectors. Purpose-built management software provides landlords with transparent financial reporting and effortless tenant administration.`
     },
-    '100-days-strategy': {
-      title: '100 Days of Strategy Compass',
-      subtitle: 'Visual Productivity & Strategic Milestone Tracking',
-      badge: 'Live Production Web App',
+    'bwip-studio': {
+      title: 'BWIP Barcode Studio — Professional Symbology & Verification Suite',
+      subtitle: 'Studio-Grade Utility with Proven Commercial Milestone',
+      badge: 'Commercial Milestone • 10 Codes Sold (KSh 1,500)',
       badgeClass: 'badge-live',
-      spark: `Long-term goals fail without daily accountability and visual momentum. David created 100 Days of Strategy to help ambitious builders track, calibrate, and accomplish quarterly strategic objectives through progressive visualization.`,
-      vibeCoding: `Developed and deployed live on Netlify using React and modular CSS, this app showcases David's frontend precision, state management, and user-centric design principles.`,
-      architecture: `React SPA | Netlify Continuous Deployment | LocalStorage State Persistence | Interactive Visual Progress Analytics.`,
-      commercialScale: `Productivity and habit-tracking apps represent one of the highest-retaining mobile and web software categories worldwide.`
+      spark: `Businesses and retail shops frequently battle rigid, overpriced software or ad-cluttered generators that only support a couple of basic formats. David built a studio-grade barcode and QR workstation supporting 100+ industrial symbologies, live camera decoding via jsQR, drag-and-drop QR editing, and batch generation.`,
+      vibeCoding: `Harnessing bwip-js, Canvas API, and jsQR, David directed AI-assisted engineering sprints to build instant canvas rendering, precise millimetric dimension scaling, color controls, and print-sheet templating, integrated with an activation code licensing mechanism and automated M-Pesa verification.`,
+      architecture: `Vanilla JavaScript | bwip-js 100+ Symbologies Engine | jsQR Live Camera Scanning | HTML5 Canvas API | M-Pesa Verification Workflows.`,
+      commercialScale: `Validated commercial milestone with 10 activation codes sold directly to users, generating KSh 1,500 in sales before expenses — proving David's ability to package, deploy, market, and monetize a standalone utility.`
     },
     'mnp-marketplace': {
       title: 'Meru National Poly (MNP) Student Marketplace & Systems',
-      subtitle: 'Campus Resource Exchange & Institutional Software',
+      subtitle: 'Campus Resource Exchange & Foundational Systems',
       badge: 'Academic Innovation & Foundation',
       badgeClass: 'badge-academic',
-      spark: `At Meru National Polytechnic during his ICT Level 6 studies, David noticed students and departments lacked a safe, localized digital board to exchange textbooks, equipment, and campus services. He stepped up to build a prototype campus exchange platform.`,
-      vibeCoding: `Building this project reinforced David's deep foundation in system troubleshooting, database schema design, and user authentication before modern AI tools even existed — giving him the foundational computer science knowledge needed to evaluate AI-generated code critically today.`,
-      architecture: `Relational Database Schemas | Full-Stack Web Development | Practical Institutional Workflows.`,
-      commercialScale: `Localized campus marketplaces and student resource platforms solve real distribution problems in higher education institutions.`
+      spark: `At Meru National Polytechnic during his ICT Level 6 studies, David identified the need for a localized digital platform for students to exchange textbooks, equipment, and campus services.`,
+      vibeCoding: `Building this project reinforced David's deep foundation in system troubleshooting, database schema normalization in MySQL, and practical user interface design before modern AI tools even existed — establishing the computer science bedrock he relies on today.`,
+      architecture: `PHP & MySQL Backend | Relational Database Schemas | Practical Institutional Workflows | User Authentication.`,
+      commercialScale: `Localized campus platforms solve real distribution problems in academic institutions while providing foundational experience in stakeholder-driven software engineering.`
     }
   };
 
   // General questions the AI Storyteller can answer
   const generalAnswers = {
     'why-hire': {
-      title: 'Why David Chege is an Irresistible Hire for Your Team',
-      text: `<p>David is that rare combination of a <strong>technically grounded ICT professional</strong>, a <strong>rapid-velocity "Vibe Coder"</strong>, and a <strong>commercial business thinker</strong>.</p>
+      title: 'Why David Chege Mungai is a Valuable Asset for Your Team',
+      text: `<p>David Chege Mungai combines <strong>practical IT support expertise</strong>, <strong>hands-on software development</strong>, and <strong>AI-assisted workflow acceleration</strong>.</p>
       <ul class="modal-points-list">
-        <li><strong>Speed &amp; Modern Velocity:</strong> Through AI-assisted engineering (Cursor, Windsurf, Gemini, Lovable), David delivers in days what traditional developers take weeks to build — while maintaining strict code verification and architectural standards.</li>
-        <li><strong>Commercial &amp; Business Instinct:</strong> Having served as Head of Digital Marketing at Ngao Roofing Ltd and worked with Harvey Home Depot Ltd, he understands customer psychology, brand presentation, and revenue generation. He doesn't just write code; he builds solutions that make businesses money.</li>
-        <li><strong>Full-Spectrum Problem Solver:</strong> From low-level hardware diagnostics, network setup, and Linux troubleshooting to Node.js microservices, PHP/MySQL databases, and modern frontend SPAs, David can step into any tech environment and deliver immediate value.</li>
+        <li><strong>Comprehensive IT &amp; Infrastructure Support:</strong> Practical experience supporting computer systems, software configurations, network troubleshooting, and IT resource maintenance in research organizations like <strong>KALRO</strong> and <strong>KEFRI</strong>.</li>
+        <li><strong>Proven Management Systems Development:</strong> Built practical management systems for healthcare (<strong>Aaban Hospital Management System</strong>), real estate (<strong>Real Estate Management Systems</strong>), business operations (<strong>Zenith Management System</strong>), and research coordination (<strong>KALRO Bio-Suite</strong>).</li>
+        <li><strong>Modern AI Velocity &amp; Data Quality:</strong> Leverages modern tools like Cursor AI, VS Code, and Google Gemini to build rapidly, test thoroughly, and maintain high standards across AI training, evaluation, and data quality.</li>
+        <li><strong>Client &amp; Stakeholder Problem-Solving:</strong> Skilled in requirements gathering, client communication, system testing, technical documentation, and ongoing support.</li>
       </ul>`
     },
     'vibe-coding': {
-      title: 'What is David\'s "Vibe Coding" Superpower?',
-      text: `<p>"Vibe Coding" is the modern discipline of pairing human intuition, taste, and system architecture with AI code generation engines (Cursor, Windsurf, Bolt.new, Gemini) to build software at unprecedented speed.</p>
-      <p style="margin-top: 14px;">Instead of typing boilerplate syntax by hand, David acts as the <strong>lead architect and director</strong>:</p>
+      title: 'How David Leverages AI-Assisted Development & Workflows',
+      text: `<p>David uses modern AI development tools (Cursor AI, VS Code, Google Gemini) not as passive shortcuts, but as an <strong>architectural accelerator</strong>.</p>
+      <p style="margin-top: 14px;">His workflow combines technical discipline with AI velocity:</p>
       <ol class="modal-steps-list">
-        <li><strong>Architectural Blueprints:</strong> He designs data schemas, API contracts, and user journeys first.</li>
-        <li><strong>AI Direction &amp; Prompt Orchestration:</strong> He directs AI tools with precision, decomposing complex requirements into bite-sized implementation sprints.</li>
-        <li><strong>Human Verification &amp; Hardening:</strong> He tests every endpoint, audits security vulnerabilities (JWT, SQL injection, input sanitization), verifies edge cases, and polishes the user experience.</li>
+        <li><strong>Requirements &amp; Data Architecture:</strong> He establishes database schemas, API contracts, and user requirements before generating code.</li>
+        <li><strong>Precision AI Direction:</strong> He decomposes complex system features into modular prompts, directing AI tools with explicit constraints and patterns.</li>
+        <li><strong>Rigorous Testing &amp; Verification:</strong> Every endpoint, SQL query, and user workflow is tested, audited for security, and verified against client needs.</li>
       </ol>
-      <p style="margin-top: 14px; color: var(--accent-emerald); font-weight: 600;">The result? Production-ready, beautiful digital products delivered at 5x to 10x traditional speed.</p>`
+      <p style="margin-top: 14px; color: var(--accent-emerald); font-weight: 600;">The result: practical, dependable digital solutions delivered with exceptional efficiency and code quality.</p>`
     },
     'billion-scale': {
-      title: 'Which Projects Have Billion-Dollar Potential?',
-      text: `<p>David has conceptualized and built architectures for high-scale global markets:</p>
+      title: 'David\'s High-Impact Projects & Systems',
+      text: `<p>David has contributed to both enterprise organizational systems and high-leverage digital applications:</p>
       <ol class="modal-steps-list">
-        <li><strong>VibeStream (Media Engine):</strong> An ultra-lightweight, decentralized streaming pipeline pairing Node.js with Python FastAPI audio transcoding and real-time WebSockets, designed to bring high-fidelity audio to bandwidth-constrained emerging markets.</li>
-        <li><strong>AI Trading Analyzer (Fintech Vision):</strong> An AI-driven chart vision tool that removes emotional bias for retail traders by evaluating multi-timeframe candlestick and indicator confluence in seconds.</li>
-        <li><strong>Global Tech Retail &amp; Dual-Gateway Platform:</strong> Bridging international consumer tech (Apple, Samsung, Xiaomi) with localized M-Pesa STK Push and global payment rails, capturing high-ticket electronics growth in East Africa.</li>
+        <li><strong>KALRO Bio-Suite (Organizational Suite):</strong> An integrated software concept designed to coordinate diverse agricultural and livestock research workflows, data collection, and asset tracking into a unified digital environment.</li>
+        <li><strong>MarketMed AI (AI Marketing Platform):</strong> An AI-powered platform concept designed to automate marketing content creation, ad assets, and business campaigns.</li>
+        <li><strong>Aaban Hospital &amp; Real Estate Management Systems:</strong> Operational systems designed to solve concrete business headaches in healthcare inventory and property record management.</li>
+        <li><strong>VibeStream (Media Application):</strong> A responsive music streaming and media download web application built on Node.js, Express.js, and SQLite.</li>
       </ol>`
     },
     'origin-story': {
-      title: 'David Chege\'s Origin Story: The Builder\'s Journey',
-      text: `<p>David's tech journey began with raw curiosity and hands-on grit: disassembling computer hardware, troubleshooting operating systems, setting up networks, and learning fundamental programming (C, C++, VB.NET, MySQL) during his ICT training at Meru National Polytechnic.</p>
-      <p style="margin-top: 14px;">Rather than staying in academic theory, he took on real-world business challenges: developing the <strong>Afya Bora Pharmacy Management System</strong> to computerize messy paper drug ledgers, and stepping into commercial leadership as <strong>Head of Digital Marketing at Ngao Roofing Ltd</strong>, driving digital visibility for NGAO TILE roofing products.</p>
-      <p style="margin-top: 14px;">Today, in 2026, David fuses foundational IT support and web engineering with cutting-edge AI-assisted "Vibe Coding", positioning himself at the forefront of modern software creation.</p>`
+      title: 'David Chege Mungai\'s Journey: Problem Solver & Builder',
+      text: `<p>Based in <strong>Kiambu, Kenya</strong>, David's tech career was built on hands-on practical problem-solving. During his <strong>Information and Communication Technology (ICT) Level 6</strong> diploma training at Meru National Polytechnic, he mastered hardware diagnostics, operating systems (Windows and Linux), networking, and software engineering (HTML, CSS, JavaScript, PHP, MySQL).</p>
+      <p style="margin-top: 14px;">He broadened his experience supporting IT operations and software initiatives at major Kenyan research institutions — the <strong>Kenya Forestry Research Institute (KEFRI)</strong> and the <strong>Kenya Agricultural and Livestock Research Organization (KALRO)</strong>, contributing to the <strong>KALRO Bio-Suite</strong>.</p>
+      <p style="margin-top: 14px;">As an independent ICT consultant, he has delivered custom management systems for healthcare, real estate, and business clients (Zenith, Aaban Hospital, Real Estate Systems). Today, he applies modern AI-assisted development and data evaluation to build impactful digital solutions.</p>`
     }
   };
 
